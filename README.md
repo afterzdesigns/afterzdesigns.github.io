@@ -1,1 +1,0 @@
-# afterzdesigns.github.io
