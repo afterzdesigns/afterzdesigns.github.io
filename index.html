@@ -1,0 +1,290 @@
+<html>
+<head>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<meta author="Rafael Schüler de Carvalho 2017 - 2020 copyright All Rights Reserved">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+		
+<title>AfterZ</title> 
+
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #6B8E23;
+	font-family: 'Arial';
+}
+
+.menu ul{
+
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li{
+	width: 150px;
+	float: left;
+}
+
+.menu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #6B8E23;
+	color: #fff;
+}
+
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+}
+
+.menu a:hover{
+	background-color: #9ACD32;
+	color: #555;
+}
+
+.menu ul ul li{
+	float: none;
+	border-bottom: solid 1px #808000;
+}
+
+.menu ul ul li{
+	float: none;
+	border-bottom: solid 1px #808000;
+}
+
+.menu ul ul li a{
+	background-color: ##556B2F;
+}
+
+label [for="bt_menu"]{
+	padding: 5px;
+	background-color: #6B8E23;
+	color: #800000;
+	font-family: "Arial";
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+
+
+#bt_menu{
+display: none;
+}
+
+label[for="bt_menu"]{
+	display: none;
+}
+
+@media(max-width: 800px){
+label[for="bt_menu"]{
+	display: block;
+}
+
+#bt_menu:checked ~ .menu{
+	margin-left: 0;
+}
+
+.menu{
+	margin-top: 5px;
+	margin-left: -100%;
+	transition: all .4s;
+}
+
+.menu ul li{
+	width: 100%;
+	float: none;
+}
+
+.menu ul ul{
+	position: static;
+	overflow: hidden;
+	max-height: 0;
+	transition: all .4s;
+}
+
+.menu ul li:hover ul{
+	height: auto;
+max-height: 200px;
+}
+}
+
+div#top {
+position: fixed-top;
+top: 0px;
+left:0px;
+	}
+
+div#campo {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+text-align: right;
+background-color: #99b36b;
+background-image: url("mudas.jpg")
+font-style: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+
+}
+
+div#logotipo {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: #adaa6f;
+background-image: url("mudas.jpg")
+font-style: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+
+}
+
+
+div#container  {
+
+	width: 100%;
+	height: auto;
+	background: #b6dc76;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+
+}
+
+div#box {
+
+	width: 100%;
+	height: auto;
+	background: #dbff76;
+	margin: 20px;
+	box-sizing:;
+	font-size: 20px;
+
+}
+
+div#rodape {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: #bbba77;
+background-image: url("")
+font-style: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+
+}
+
+</style>
+</head>
+
+<body>
+
+ <style>
+body {
+  background-image: url('flavitsky.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+	
+	
+<div id="top">
+
+<input type="checkbox" id="bt_menu">
+<label for="bt_menu"><h1>&#9776;</h1></label>
+
+<nav class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">About</a>
+				<ul>
+					<li><a href="frontfoods.html">Styles</a></li>
+					<li><a href="frontfoods.html">Driverhead</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">Creations</a>
+				
+				<ul>
+					<li><a href="pereskia.html">Logos</a></li>
+					<li><a href="curcumalonga.html">Interfaces</a></li>
+					<li><a href="zingiberofficinale.html">Identify</a></li>
+				</ul>	
+				<li><a href="#">Contact</a>
+				<ul>
+					<li><a href="contato.html">Please contact</a></li>
+				</ul>
+			</li>
+			
+			</li>
+	
+		</ul>
+
+	</nav>
+
+</div>
+
+	<div id="campo">
+
+	</div>
+
+
+	 <div id="container"> 
+
+         	<div id="box">
+         	</div>
+         	<div id="box">
+        	</div>
+         	<div id="box">
+            </div>
+
+      </div>
+
+
+	<hr>
+
+
+  			<div id="logotipo">
+			AfterZ Designs Company                                                      Your acess to market 
+		    </div>
+
+             <div id="rodape">
+
+			 Copyright AfterZ - All Rights Reserved
+           
+             </div>
+	
+	
+
+
+           
+
+
+
+</body>
+</html>
